@@ -9,5 +9,4 @@ public class AzureDemoWebAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AzureDemoWebAppApplication.class, args);
 	}
-
 }
