@@ -8,6 +8,11 @@ public class WelcomeController {
 
     @RequestMapping("/")
     public String index(){
-        return "Hello welcome";
+        return "Hello Azure WebApp!";
+    }
+
+    @RequestMapping("/welcome")
+    public String devops(){
+        return "Welcome to Azure DevOps!!!!";
     }
 }
